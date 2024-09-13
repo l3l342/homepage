@@ -1,17 +1,40 @@
-
-/*background and font*/
-body {
-    background-color: #121010;
-}
-
 .coding-font{
+    margin-top: 10px;
     font-family: "Nanum Gothic Coding", monospace;
     font-weight: 400;
     font-style: normal;
     color: white;
   }
 
+/*background and font*/
+body {
+    background-color: #121010;
+}
+.logo-home{
+    position:fixed;
+    margin-top: 0.25%;
+    margin-left: 0.5%;
+}
+
   /*header row about, etc */
 .about{
-    
+    margin-top: 0.5%;
+    display:inline-block;    
+    margin-left: 81.5%;
+
 }
+.connect{
+
+    display:inline-block;
+    margin-left: 1.5%;
+
+}
+.switch{
+    display:inline-block;  
+    margin-left:1.5%; 
+}
+
+
+
+/*cmd design here*/
+
