@@ -1,0 +1,17 @@
+
+/*background and font*/
+body {
+    background-color: #121010;
+}
+
+.coding-font{
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+
+  /*header row about, etc */
+.about{
+    
+}
