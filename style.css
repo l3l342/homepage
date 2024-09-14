@@ -9,6 +9,9 @@
 /*background and font*/
 body {
     background-color: #121010;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
 }
 .logo-home{
     position:fixed;
@@ -21,6 +24,7 @@ body {
     margin-top: 0.5%;
     display:inline-block;    
     margin-left: 81.5%;
+    margin-bottom: 10%;
 
 }
 .connect{
@@ -38,3 +42,9 @@ body {
 
 /*cmd design here*/
 
+.term{
+    height: 50%;
+    width: 40%;
+    border-radius: 25px;
+    margin: auto;
+}
