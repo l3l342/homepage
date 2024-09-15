@@ -1,3 +1,7 @@
+:root {
+    --size: 1.2;
+}
+
 .coding-font{
     margin-top: 10px;
     font-family: "Nanum Gothic Coding", monospace;
@@ -9,34 +13,36 @@
 
 /*background and font*/
 body {
-    background-color: #121010;
+    background-color: #181818;
     margin: 0; 
     height: 100%; 
     overflow: hidden
 }
 .logo-home{
     position:fixed;
-    margin-top: 0.25%;
+    margin-top: 1%;
     margin-left: 0.5%;
 }
 
   /*header row about, etc */
 #about{
-    margin-top: 0.5%;
+    font-size: 120%;
+    margin-top: 1%;
     display:inline-block;    
-    margin-left: 81.5%;
-    margin-bottom: 10%;
+    margin-left: 78%;
+    margin-bottom: 7%;
 
 }
 #connect{
-
+    font-size: 120%;
     display:inline-block;
-    margin-left: 1.5%;
+    margin-left: 2%;
 
 }
 #switch{
+    font-size: 120%;
     display:inline-block;  
-    margin-left:1.5%; 
+    margin-left:2%; 
 }
 
 
@@ -44,8 +50,54 @@ body {
 /*cmd design here*/
 
 .term{
-    height: 50%;
-    width: 40%;
-    border-radius: 25px;
+    height: 60%;
+    width: 50%;
     margin: auto;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; 
+    
+}
+
+#term-top{
+    width: 50%;
+    height: 5%;
+    margin: auto;
+    background-color: #343433;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#folder{
+    margin-top: 0.7%;
+    margin-left: 35%;
+}
+
+#green{
+    height: 15px;
+    width: 15px;
+    background-color: #27c83d;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 0.7%;
+    margin-left: 0.5%;
+}
+
+#yellow{
+    height: 15px;
+    width: 15px;
+    background-color: #feba2b;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 0.7%;
+    margin-left: 0.5%;
+}
+
+#red{
+    height: 15px;
+    width: 15px;
+    background-color: #fd5e5b;
+    margin-bottom: 0.7%;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2%;
 }
