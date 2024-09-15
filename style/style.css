@@ -32,7 +32,7 @@ body {
 .logo-home{
     position:fixed;
     margin-top: 1%;
-    margin-left: 0.5%;
+    margin-left: 1%;
 }
 
   /*header row about, etc */
@@ -44,18 +44,57 @@ body {
     margin-bottom: 7%;
 
 }
+#about:hover{
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #f8cb00,
+        0 0 42px rgb(238, 202, 3),
+        0 0 82px rgb(255, 225, 0),
+        0 0 92px rgb(246, 210, 7),
+        0 0 102px rgb(255, 230, 0),
+        0 0 151px rgb(255, 230, 0);
+}
+
 #connect{
     font-size: 120%;
     display:inline-block;
     margin-left: 2%;
 
 }
+
+#connect:hover{
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #f8cb00,
+        0 0 42px rgb(238, 202, 3),
+        0 0 82px rgb(255, 225, 0),
+        0 0 92px rgb(246, 210, 7),
+        0 0 102px rgb(255, 230, 0),
+        0 0 151px rgb(255, 230, 0);
+}
+
 #switch{
     font-size: 120%;
     display:inline-block;  
     margin-left:2%; 
 }
 
+#switch:hover{
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #f8cb00,
+        0 0 42px rgb(238, 202, 3),
+        0 0 82px rgb(255, 225, 0),
+        0 0 92px rgb(246, 210, 7),
+        0 0 102px rgb(255, 230, 0),
+        0 0 151px rgb(255, 230, 0);
+}
 
 
 /*cmd design here*/
@@ -108,7 +147,7 @@ body {
 }
 
 #folder{
-    margin-top: 0.7%;
+    margin-top: 0.4%;
     margin-left: 35%;
 }
 

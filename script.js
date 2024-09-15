@@ -10,12 +10,10 @@ const commands = {
     time () {
         term.echo('13:12 its always 13:12');
     },
-    switchmodes() {
-        //TODO: code when style is finished
+    switch_modes() {
     },
-
     about() {
-        term.echo('Hello');
+        term.echo('hello');
     },
     hello() {
         term.echo(greetings);
@@ -41,7 +39,7 @@ const term = $('.term').terminal(commands, {
 
 //command list after help
 //const help = "\n \n clear - clear terminal output\n hello - welcome screen\n echo - print whats after echo \n help - you know what this does \n time - the time \n about - few things about me :) \n";
-const help = '\n\n general:\n hello - welcome screen\n clear - clear terminal output\n echo - print whats after echo\n help - you know what this does\n time - the time\n switch modes - switch from darkmode to lightmode\n\n personal\n about - few things about me :)\n projects - my projects\n contact - how to contact me\n'
+const help = '\n\n general:\n hello - welcome screen\n clear - clear terminal output\n echo - print whats after echo\n help - you know what this does\n time - the time\n switch_modes - switch from darkmode to lightmode\n\n personal\n about - few things about me :)\n projects - my projects\n contact - how to contact me\n'
 // make the text clickable
 document.getElementById('about').addEventListener("click", function() {
     const command = $(this).text().trim();
