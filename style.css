@@ -1,5 +1,16 @@
+@property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
 :root {
     --size: 1.2;
+    --clr-1:#751ee8;
+    --clr-2:#f89d4c;
+    --clr-3:#f3d239;
+    --clr-4:#f37056;
+    --clr-5:#f37056; 
 }
 
 .coding-font{
@@ -50,17 +61,46 @@ body {
 /*cmd design here*/
 
 .term{
+    height: 93%;
+    margin:auto;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; 
+    position: relative;
+}
+
+/*terminal border raindbow*/
+.termIn{
     height: 60%;
     width: 50%;
     margin: auto;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px; 
-    
+    border-radius: 15px;
+    position:relative;
 }
 
+.termIn::before,
+.termIn::after{
+    content: "";
+    position: absolute;
+    inset:-0.5rem;
+    z-index: -1;
+    background: conic-gradient(
+        from var(--gradient-angle),
+        var(--clr-3),
+        var(--clr-4),
+        var(--clr-1),
+        var(--clr-4),
+        var(--clr-3));
+        border-radius: inherit;
+        animation: rotation 10s linear infinite;
+    ;
+}
+.termIn::after {
+    filter: blur(3.5rem)
+}
+
+
 #term-top{
-    width: 50%;
-    height: 5%;
+    height: 7%;
     margin: auto;
     background-color: #343433;
     border-top-left-radius: 15px;
@@ -100,4 +140,9 @@ body {
     border-radius: 50%;
     display: inline-block;
     margin-left: 2%;
+}
+
+@keyframes rotation {
+    0% {--gradient-angle: 0deg;}
+    100% {--gradient-angle: 360deg;}
 }
