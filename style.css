@@ -4,6 +4,7 @@
     font-weight: 400;
     font-style: normal;
     color: white;
+    cursor: pointer;
   }
 
 /*background and font*/
@@ -20,20 +21,20 @@ body {
 }
 
   /*header row about, etc */
-.about{
+#about{
     margin-top: 0.5%;
     display:inline-block;    
     margin-left: 81.5%;
     margin-bottom: 10%;
 
 }
-.connect{
+#connect{
 
     display:inline-block;
     margin-left: 1.5%;
 
 }
-.switch{
+#switch{
     display:inline-block;  
     margin-left:1.5%; 
 }
