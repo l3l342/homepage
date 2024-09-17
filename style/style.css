@@ -203,3 +203,9 @@ body {
     100% {--gradient-angle: 360deg;}
 }
 
+
+@media screen and (min-width: 1200px) {
+    :root {
+        --size: 1.4;
+    }
+}

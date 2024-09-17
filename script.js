@@ -10,23 +10,23 @@ const commands = {
     time () {
         term.echo('13:12 its always 13:12');
     },
-    switch_modes() {
-    },
     about() {
-        term.echo('hello');
+        term.echo('\nHello my Name is Ben and im a Software Developer from Germany :)\nIm 19 years old and live near Hamburg, Germany. I like to see new places and learn new things.\n\nRecently i graduated from high school and in the moment i try to do \nthings that seem important to me. For example supporting my familie \nwith cooking or working to get some money to see the world. \n\nOn this page you will see almost only my it background, thatswhy i \nwill tell you now my interests besides It: \nI really like to play Video games (Valorant, Minecraft Csgo), i also \nreally like to cook (my family and friends also like :) ). Furthermore im a very social person. I like to have people around me and hang out\nyeah thats me 👍');
     },
     hello() {
         term.echo(greetings);
     },
     projects() {
+        term.echo('\n My projects:\n +++ please check out my Github for all projects +++ \n\n 🔫 Better Buff 🔫 - https://github.com/l3l342/Better-Buff \n Better Buff is a Windows-App where you can compare csgo item prices\n on different websites. The websites buff, skinport and steam will be  compared. The application is written in python and uses the library\n of customtkinter. Feel free to download an try, but read carefull the instructions on github :) \n\n 📰 Newspage 📰 - https://github.com/l3l342/Newspage \n For a school project i created a Newspaper website for an imaginary\n publisher. It was one of my first projects, but theres very much work in it. https://l3l342.github.io/Newspage-master/ link to the website, but not all features work. (the project is really old !)' );
 
     },
     connect(){
-        $(document).ready(function() {
-            $('.term').append('<a href="github.com">Github</a>');
-        });
+        term.echo('\n Connect with me:\n 📧 E-mail: ben.drtt[a.t]protonmail.com or write "mail"📧 \n 👾 Github: https://github.com/l3l342/ 👾 \n 🎸 Soundcloud: https://on.soundcloud.com/TofwycUwUog5uSFD8 🎸\n');
+    },
+    mail(){
+        const mail = "ben.drtt[at]protonamil.com".replace("[at]", "@");
+        window.location.href = `mailto:${mail}?subject=Subject&body=message%20goes%20here`;;
     }
-
 };
 
 //greeting slogan
