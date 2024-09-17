@@ -209,3 +209,17 @@ body {
         --size: 1.4;
     }
 }
+
+@media screen and (max-width: 1350px) {
+    #about{
+        font-size: 120%;
+        margin-top: 1%;
+        display:inline-block;    
+        margin-left: 35%;
+        margin-bottom: 7%;
+    }
+    #folder{
+        margin-top: 0.2%;
+        margin-left: 34%;
+    }
+}
